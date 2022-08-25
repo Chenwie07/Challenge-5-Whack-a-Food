@@ -89,7 +89,7 @@ public class GameManagerX : MonoBehaviour
         if (levelTime > 0)
             timer.SetText("Timer: " + Mathf.Round(levelTime));
         else
-            GameOver(); 
+            GameOver();
     }
 
     // Stop game, bring up game over text and restart button
